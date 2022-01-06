@@ -1,5 +1,97 @@
 /* CSS files add styling rules to your content */
-
-h1 {
-  color: green;
+body, html {
+  height: 100%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background: url("https://cdn.glitch.me/4d745ae5-19fc-446c-9d8a-032f8dceba3c%2F21475926-grey-background-painted-iron-old-wall-.jpg?v=1635373127191");
+
+  /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgImg {
+  /* The image used */
+  background: url("https://cdn.glitch.me/4d745ae5-19fc-446c-9d8a-032f8dceba3c%2FAmoy-MenuBar-bg.jpg?v=1635375953082");
+
+  /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+h2 {
+  color: #007d4d;
+}
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  padding:50px;
+  margin:50px;
+}
+img{
+  width: 150px
+  
+}
+p{
+  color:#6e0a1e
+}
+.navBar{
+  padding:15px
+}
+a:visited {
+  color: rgb(255,255,255);
+}
+a:link {
+  color:rgb(255,255,255);
+}
+a:hover {
+  color: rgb(0,255,0);
+}
+.contant{
+  display:flex;
+  justify-content:space-evenly;
+    padding:5px;
+  margin:50px;
+  flex-wrap:wrap;
+}
+/*colors
+6eoa1e
+007d4d
+*/
