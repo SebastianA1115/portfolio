@@ -57,7 +57,7 @@ body, html {
   text-align: center;
 }
 h2 {
-  color: #007d4d;
+  color: #200344;
 }
 .navBar {
   display: flex;
@@ -65,9 +65,13 @@ h2 {
   padding:50px;
   margin:50px;
 }
-img{
-  width: 150px
+
+.headshot{
+  height:500px;
   
+}
+.pone{
+  width:150px;
 }
 p{
   color:#6e0a1e
@@ -90,6 +94,9 @@ a:hover {
     padding:5px;
   margin:50px;
   flex-wrap:wrap;
+}
+.flexBox{
+  display:Block;
 }
 /*colors
 6eoa1e
